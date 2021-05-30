@@ -26,7 +26,7 @@ const violetTheme = {
     default: 'F0F0F0'
   },
   scroll: {
-    thumbColor: '#313347' 
+    thumbColor: '#5B3362' 
   }
 }
 
