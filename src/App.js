@@ -16,6 +16,7 @@ const App = () => {
         <button className='themeBtn grey' onClick={() => dispatch(changeTheme(Themes.greyTheme))}>grey</button>
         <button className='themeBtn dark' onClick={() => dispatch(changeTheme(Themes.defaultTheme))}>dark</button>
         <button className='themeBtn violet' onClick={() => dispatch(changeTheme(Themes.violetTheme))}>violet</button>
+        <button className='themeBtn light' onClick={() => dispatch(changeTheme(Themes.lightTheme))}>light</button>
       </div>
     </div>
   )
