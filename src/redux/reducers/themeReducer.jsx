@@ -1,6 +1,6 @@
 import Themes from '../../themes'
 
-const initialState = Themes.defaultTheme
+const initialState = Themes.greyTheme
 
 const themeReducer = (state = initialState, action) => {
   switch(action.type) {
