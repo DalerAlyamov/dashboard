@@ -1,5 +1,7 @@
-// import all reducers
 import { createStore, combineReducers } from 'redux'
+// import all reducers
+import pageReducer from './pageReducer'
+import themeReducer from './themeReducer'
 
 // name in localStorage, where you will save your state
 const localStorageItemName = 'state'
@@ -20,7 +22,8 @@ const loadFromLocalStorage = () => {
 
 // combining all reducers to one
 const allReducers = combineReducers({
-  
+  page: pageReducer,
+  theme: themeReducer
 })
 
 // setting start state, from localStorage
